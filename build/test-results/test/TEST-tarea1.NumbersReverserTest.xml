@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tarea1.NumbersReverserTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2023-09-29T02:36:23" hostname="Mauricios-MacBook-Pro.local" time="0.182">
+  <properties/>
+  <testcase name="Performance test for reversing a large number" classname="tarea1.NumbersReverserTest" time="0.034"/>
+  <testcase name="Reverse of -1 is {1}" classname="tarea1.NumbersReverserTest" time="0.024"/>
+  <testcase name="Reverse of -10 is {1}" classname="tarea1.NumbersReverserTest" time="0.002"/>
+  <testcase name="Reverse of -001 is {1}" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of -00010 is {1}" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 1234567890 is 0987654321" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 1000000000 is 0000000001" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Test reverse for negative zero" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Test reverse for the string '0'" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 1 is 1" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 9 is 9" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 1 is 1" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 10 is 01" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 001 is 1" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of -1 is {1}" classname="tarea1.NumbersReverserTest" time="0.002"/>
+  <testcase name="Reverse of -100 is {1}" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of -12345 is {1}" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 0 is 0" classname="tarea1.NumbersReverserTest" time="0.002"/>
+  <testcase name="Reverse of 000 is 0" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 00000 is 0" classname="tarea1.NumbersReverserTest" time="0.002"/>
+  <testcase name="Test reverse for a non-numeric character" classname="tarea1.NumbersReverserTest" time="0.002"/>
+  <testcase name="Reverse of 0 is 0" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 100 is 001" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 12345 is 54321" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <testcase name="Reverse of 987654321 is 123456789" classname="tarea1.NumbersReverserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
