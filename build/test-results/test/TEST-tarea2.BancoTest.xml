@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tarea2.BancoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-02T18:58:34" hostname="Mauricios-MacBook-Pro.local" time="1.263">
+<testsuite name="tarea2.BancoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-02T19:09:46" hostname="Mauricios-MacBook-Pro.local" time="1.123">
   <properties/>
-  <testcase name="testGetMaximoPrestamoCategoriaA()" classname="tarea2.BancoTest" time="1.248"/>
+  <testcase name="testGetMaximoPrestamoCategoriaA()" classname="tarea2.BancoTest" time="1.108"/>
   <testcase name="testGetMaximoPrestamoCategoriaB()" classname="tarea2.BancoTest" time="0.004"/>
-  <testcase name="testGetMaximoPrestamoCategoriaC()" classname="tarea2.BancoTest" time="0.003"/>
+  <testcase name="testGetMaximoPrestamoCategoriaC()" classname="tarea2.BancoTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

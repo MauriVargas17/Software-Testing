@@ -21,24 +21,24 @@ public class BancoTest {
     void testGetMaximoPrestamoCategoriaA() {
         when(asfiAsesor.consultarCategoria("CI123")).thenReturn("A");
 
-        int maxPrestamo = banco.getMaximoPrestamo("CI123");
-        assertEquals(200000, maxPrestamo);
+        String maxPrestamo = banco.getMaximoPrestamo("CI123");
+        assertEquals("maximo a prestar 200000", maxPrestamo);
     }
 
     @Test
     void testGetMaximoPrestamoCategoriaB() {
         when(asfiAsesor.consultarCategoria("CI456")).thenReturn("B");
 
-        int maxPrestamo = banco.getMaximoPrestamo("CI456");
-        assertEquals(100000, maxPrestamo);
+        String maxPrestamo = banco.getMaximoPrestamo("CI456");
+        assertEquals("maximo a prestar 100000", maxPrestamo);
     }
 
     @Test
     void testGetMaximoPrestamoCategoriaC() {
         when(asfiAsesor.consultarCategoria("CI789")).thenReturn("C");
 
-        int maxPrestamo = banco.getMaximoPrestamo("CI789");
-        assertEquals(0, maxPrestamo);
+        String maxPrestamo = banco.getMaximoPrestamo("CI789");
+        assertEquals("no se puede prestar ningún monto ALERTA!", maxPrestamo);
     }
 
 }

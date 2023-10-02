@@ -7,14 +7,14 @@ public class Banco {
         this.asfiAsesor = asfiAsesor;
     }
 
-    public int getMaximoPrestamo(String ci) {
+    public String getMaximoPrestamo(String ci) {
         String categoria = getCategoria(ci);
         if (categoria.equals("A")) {
-            return 200000;
+            return "maximo a prestar 200000";
         } else if (categoria.equals("B")) {
-            return 100000;
+            return "maximo a prestar 100000";
         } else {
-            return 0;
+            return "no se puede prestar ningún monto ALERTA!";
         }
     }
 
